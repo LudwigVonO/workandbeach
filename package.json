@@ -4,7 +4,8 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "ci":"CI=true pnpm i"
   },
   "dependencies": {
     "@beta": "link:next-auth/@beta",
