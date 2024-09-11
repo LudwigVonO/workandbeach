@@ -6,7 +6,7 @@ export default function AcmeLogo() {
     <div
       className={`${lusitana.className} flex flex-row items-center leading-none text-white`}
     >
-      <Image src='/logo.png' alt='Parlange logo'width={400} height={100}/>
+      <Image src='/logo.png' alt='Parlange logo'width={800} height={200}/>
     </div>
   );
 }

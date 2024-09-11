@@ -1,9 +1,14 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
+  basePath: "/workandbeach",
+  output:"export",
+  reactStrictMode:true,
   experimental: {
     ppr: 'incremental',
   },
 };
 
-export default nextConfig;
+
+module.exports = nextConfig;
+// export default nextConfig;
