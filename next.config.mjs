@@ -1,10 +1,21 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  // basePath: "/workandbeach",
-  experimental: {
-    ppr: 'incremental',
-  },
+    experimental: {
+      ppr: 'incremental',
+    },
 };
 
-module.exports = nextConfig
+export default {nextConfig}
+
+// export default (phase, { defaultConfig }) => {
+//   /**
+//    * @type {import('next').NextConfig}
+//    */
+//   const nextConfig = {
+//     experimental: {
+//       ppr: 'incremental',
+//     },
+//   }
+//   return nextConfig
+// }
